@@ -133,7 +133,7 @@ function flipCard(){
        }
      
           
-        },2500);
+        },1750);
 
      
     //  if(game.checkMatch()){
