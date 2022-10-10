@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Raspadinha Online - Gênesis</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- set Icon -->
+  <link rel="icon" href="./assets/images/logo.png" type="">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <!-- <h1>Raspadinha Online do Gênesis</h1> -->
+
+  <div class="header">
+    <div class="logoContainer">
+
+      <img src="./assets/images/logo_2.png" id="logo" alt="Logo Rachadinha Online">
+    </div>
+
+    <div id="description">
+      <h1>Raspadinha Online do Gênesis</h1>
+
+      <h3 style="margin-top:1rem">"Raspe sua carta clicando abaixo:"</h3>
+
+      <h4>Grave sua tela e poste marcando o Clube Gênesis no Instagram!</h4>
+
+
+    </div>
+
+
+  </div>
+
+
+  <div class="wrapperGameBoard">
+    <div id="gameBoard">
+
+
+
+    </div>
+
+  </div>
+
+  <div id="gameOver">
+    <div id="caixa">
+
+
+      <!-- Create a button to close de wrapper -->
+      <div onclick="closeWrapper()" id="close">
+        X
+      </div>
+
+      Obrigado por Participar! Mande o valor no pix:
+      <br>
+      <div id="pixContainer">
+        <input type="text" value="desbravagenesis@gmail.com" id="pixKey">
+        <button onclick="copyPix()" id="copyPixKey">Copiar</button>
+      </div>
+      <!-- Você retirou o número: <span id="pix"></span> -->
+      <button id="reload" onclick="reload()">Retirar outro número!</button>
+    </div>
+  </div>
+
+
+  <script src="./assets/scripts/game.js"></script>
+  <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
